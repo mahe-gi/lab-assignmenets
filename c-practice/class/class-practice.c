@@ -1,3 +1,19 @@
+
+#include <stdio.h>
+int main()
+{
+}
+
+// #include <stdio.h>
+// #include <string.h>
+// int main()
+// {
+
+//     int x = 3, y = 2;
+//     int z = x++ * (x + y) - y--;  // initilization time no priority
+//     printf("%d%d%d", x, y, z);
+// }
+
 // #include <stdio.h>
 // int main()
 // {
@@ -42,12 +58,12 @@
 //     val == '/' && printf("Division is %.2f", firstnumber / lastnumber);
 // }
 
-#include <stdio.h>
-int main()
-{
+// #include <stdio.h>
+// int main()
+// {
 
-    int number = 0;
-    scanf("%d", &number); // 234
+//     int number = 0;
+//     scanf("%d", &number); // 234
 
-    number % 100 >= 50 && printf("Previous multiple: %d\n", (number / 100) * 100) && printf("Next multiple: %d", ((number / 100) + 1) * 100);
-}
+//     number % 100 >= 50 && printf("Previous multiple: %d\n", (number / 100) * 100) && printf("Next multiple: %d", ((number / 100) + 1) * 100);
+// }
