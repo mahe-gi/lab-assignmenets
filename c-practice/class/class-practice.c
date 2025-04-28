@@ -1,8 +1,30 @@
 
-#include <stdio.h>
-int main()
-{
-}
+// #include <stdio.h>
+// int main()
+// {
+//     int a = -1, b = 1, c, d;
+//     c = !a && b;
+//     d = !a || b;
+//     printf("%d %d %d %d", a, b, c, d);
+//     return 0;
+// }
+// #include <stdio.h>
+// int main()
+// {
+//     int x = 5, y = 2, z;
+//     z = x / y * x % y;
+//     printf("%d\n", z);
+//     return 0;
+// }
+// #include <stdio.h>
+// int main()
+// {
+//     int a, b = 2, c;
+//     a = 2 * (b++);
+//     c = 2 * (++b);
+//     printf("a=%d, b=%d, c=%d", a, b, c);
+//     return 0;
+// }
 
 // #include <stdio.h>
 // #include <string.h>
