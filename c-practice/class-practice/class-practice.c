@@ -1,4 +1,25 @@
 
+
+// Devlop a program on a payroll system for a company. The system needs to calculate the salary of an employee based on their employee type ('M' for manager or 'H' for HR employee) and their basic salary.
+// ------   For managers, their salary should be increased by 5% as a performance bonus. Write a C program that takes the employee type and basic salary as inputs and calculates the increased salary using the ternary operator
+// Sample Input
+// M
+// 25000
+// Sample Output
+// Final salary: 26250.00
+
+#include <stdio.h>
+int main()
+{
+    int salary;
+    char employeetype;
+    scanf("%c %d", &employeetype, &salary);
+    float bonus = salary * ((float)5 / 100);
+
+    salary < 0 ? printf("Negative Salary Not Allowed.") : employeetype == 'M' ? printf("Final salary: %.2f", (float)salary + bonus)
+                                                      : employeetype == 'H'   ? printf("Final salary: %.2f", (float)salary)
+                                                                              : printf(" ");
+}
 // #include <stdio.h>
 // int main()
 // {

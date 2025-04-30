@@ -100,3 +100,4 @@ void payroll()
     : (employee == 'H') ? printf("%d %% as a performance bonus : %d\n", per, salary + bonus)
                         : printf("enter emoply type corretly\n");
 }
+
