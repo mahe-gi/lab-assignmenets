@@ -1,4 +1,4 @@
-// 1) What will be the output of bellow code?
+// 1) What will be the output of bellow code
 
 // #include <stdio.h>
 // int main()
@@ -17,7 +17,7 @@
 // ANS : A
 // _______________________________________________________
 
-// 2) What will be the output of bellow code?
+// 2) What will be the output of bellow code
 
 // #include <stdio.h>
 // int main()
@@ -36,7 +36,7 @@
 // ANS : C in c++ compiler A in turbo c
 // _______________________________________________________
 
-// 3) What is the output of the following code?
+// 3) What is the output of the following code
 
 // #include <stdio.h>
 // int main()
@@ -60,7 +60,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 4) What will be the output for the following C code?
+// 4) What will be the output for the following C code
 
 // #include <stdio.h>
 // int main()
@@ -81,7 +81,7 @@
 // ANS : B
 // _______________________________________________________
 
-// 5) What will be the output for the following C code?
+// 5) What will be the output for the following C code
 
 // #include <stdio.h>
 // int main()
@@ -120,7 +120,7 @@
 // ANS : C
 // _______________________________________________________
 
-// 7) What will be the output of following program ?
+// 7) What will be the output of following program
 
 // #include <stdio.h>
 //   void main()
@@ -137,7 +137,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 8) What will be the output of bellow code?
+// 8) What will be the output of bellow code
 
 // #include <stdio.h>
 //   void main()
@@ -156,7 +156,7 @@
 // ANS : B
 // _______________________________________________________
 
-// 9) What will be the output of this below program?
+// 9) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -174,7 +174,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 10) What will be the output of this below program?
+// 10) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -195,7 +195,7 @@
 // ANS : C
 // _______________________________________________________
 
-// 11) What will be the output of this below program?
+// 11) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -218,7 +218,7 @@
 // ANS : A
 // _______________________________________________________
 
-// 12) What will be the output of this below program?
+// 12) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -239,7 +239,7 @@
 // ANS : A
 // _______________________________________________________
 
-// 13) Which of the following operator takes only integer operands?
+// 13) Which of the following operator takes only integer operands
 
 // A) +
 // B) *
@@ -266,7 +266,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 15) What will be the output of this below program?
+// 15) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -286,7 +286,7 @@
 // ANS : C
 // _______________________________________________________
 
-// 16) What will be the output of this below program?
+// 16) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -303,7 +303,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 17) What will be the output of this below program?
+// 17) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -323,7 +323,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 18) What will be the output of this below program?
+// 18) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -343,7 +343,7 @@
 // ANS : C
 // _______________________________________________________
 
-// 19) What will be the output of this below program?
+// 19) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -363,7 +363,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 20) What will be the output of this below program?
+// 20) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -384,7 +384,7 @@
 // ANS : B
 // _______________________________________________________
 
-// 21) What will be the output of this below program?
+// 21) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -404,7 +404,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 22) What will be the output of this below program?
+// 22) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -421,7 +421,7 @@
 // ANS : A
 // _______________________________________________________
 
-// 23) What will be the output of this below program?
+// 23) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -442,7 +442,7 @@
 // ANS : B
 // _______________________________________________________
 
-// 24) Which of the following is a valid C identifier?
+// 24) Which of the following is a valid C identifier
 
 // A) 123name
 // B) _name ✅
@@ -453,7 +453,7 @@
 // ANS : B
 // _______________________________________________________
 
-// 25) What will be the output of this below program?
+// 25) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -475,7 +475,7 @@
 // ANS : C
 // _______________________________________________________
 
-// 26) What will be the output of this below program?
+// 26) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -495,7 +495,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 27) What will be the output of this below program?
+// 27) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -515,7 +515,7 @@
 // ANS : A
 // _______________________________________________________
 
-// 28) What will be the output of this below program?
+// 28) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -544,7 +544,7 @@
 // ANS : C
 // _______________________________________________________
 
-// 29) What will be the output of this below program?
+// 29) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -563,7 +563,7 @@
 // ANS : A
 // _______________________________________________________
 
-// 30) What will be the output of this below program?
+// 30) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -584,7 +584,7 @@
 // ANS : C
 // _______________________________________________________
 
-// 31) What will be the output of this below program?
+// 31) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -605,7 +605,7 @@
 // ANS : A
 // _______________________________________________________
 
-// 32) What will be the output of this below program?
+// 32) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -626,7 +626,7 @@
 // ANS : B
 // _______________________________________________________
 
-// 33) What will be the output of this below program?
+// 33) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -646,7 +646,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 34) What will be the output of this below program?
+// 34) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -667,7 +667,7 @@
 // ANS : A
 // _______________________________________________________
 
-// 35) What will be the output of this below program?
+// 35) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -687,7 +687,7 @@
 // ANS : A
 // _______________________________________________________
 
-// 36) What will be the output of this below program?
+// 36) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -707,7 +707,7 @@
 // ANS : A
 // _______________________________________________________
 
-// 37) What will be the output of this below program?
+// 37) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -727,7 +727,7 @@
 // ANS : C
 // _______________________________________________________
 
-// 38) What will be the output of the following C code?
+// 38) What will be the output of the following C code
 
 // #include
 // int main()
@@ -748,7 +748,7 @@
 // ANS : D
 // _______________________________________________________
 
-// 39) What will be the output of this below program?
+// 39) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -773,7 +773,7 @@
 
 // _______________________________________________________
 
-// 40) What will be the output of this below program?
+// 40) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -803,7 +803,7 @@
 
 // _______________________________________________________
 
-// 41) What will be the output of this below program?
+// 41) What will be the output of this below program
 
 // #include <stdio.h>
 // int main()
@@ -822,7 +822,7 @@
 
 // _______________________________________________________
 
-// 42) Find the output of the given C program?
+// 42) Find the output of the given C program
 
 // #include <stdio.h>
 // int main()
@@ -836,7 +836,7 @@
 // }
 // _______________________________________________________
 
-// 43) Find the output of the given C program?
+// 43) Find the output of the given C program
 
 // #include <stdio.h>
 // int main()
@@ -848,7 +848,7 @@
 // }
 // _______________________________________________________
 
-// 44) Find the output of the given C program?
+// 44) Find the output of the given C program
 
 // #include <stdio.h>
 // int main()
@@ -860,7 +860,7 @@
 // }
 // _______________________________________________________
 
-// 45) Find the output of the given C program?
+// 45) Find the output of the given C program
 
 // #include <stdio.h>
 // int main()

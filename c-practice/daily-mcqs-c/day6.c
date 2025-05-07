@@ -29,7 +29,7 @@ void evenORodd(int a)
 
     int number = a;
 
-    (number % 2 == 0) ? printf("EVEN\n") : printf("ODD\n");
+    (number % 2 == 0) printf("EVEN\n") : printf("ODD\n");
 }
 
 // ======================================
@@ -45,7 +45,7 @@ void minmaxval(int a, int b)
     int number1 = a;
     int number2 = b;
 
-    number1 > number2 ? printf("MAX = %d\n", number1) : printf("MAX = %d\n", number2);
+    number1 > number2 printf("MAX = %d\n", number1) : printf("MAX = %d\n", number2);
 }
 
 // ======================================
@@ -60,8 +60,8 @@ void minmaxusingthreenums(int num1, int num2, int num3)
 {
     int a = num1, b = num2, c = num3;
 
-    (a > b && a > c) ? printf("MAX = %d\n", a) : b > c ? printf("MAX = %d\n", b)
-                                                       : printf("MAX = %d\n", c);
+    (a > b && a > c) printf("MAX = %d\n", a) : b > c printf("MAX = %d\n", b)
+        : printf("MAX = %d\n", c);
 }
 
 // ========================================
@@ -72,8 +72,8 @@ void posornegint(int a)
 {
     int num1 = a;
 
-    num1 > 0 ? printf("POSITIVE\n") : num1 < 0 ? printf("NEGATIVE\n")
-                                               : printf("ZERO\n");
+    num1 > 0 printf("POSITIVE\n") : num1 < 0 printf("NEGATIVE\n")
+        : printf("ZERO\n");
 }
 
 // ========================================
@@ -95,9 +95,7 @@ void payroll()
 
     int bonus = salary * (float)per / 100;
 
-    employee == 'M'
-        ? printf("%d %% as a performance bonus : %d\n", per, salary + bonus)
-    : (employee == 'H') ? printf("%d %% as a performance bonus : %d\n", per, salary + bonus)
-                        : printf("enter emoply type corretly\n");
+    employee == 'M' printf("%d %% as a performance bonus : %d\n", per, salary + bonus)
+        : (employee == 'H') printf("%d %% as a performance bonus : %d\n", per, salary + bonus)
+        : printf("enter emoply type corretly\n");
 }
-

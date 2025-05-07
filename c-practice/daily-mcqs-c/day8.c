@@ -36,8 +36,8 @@ void electricitybill()
     int units = 0;
     printf("units consumed : ");
     scanf("%d", &units);
-    units <= 100 ? printf("The total electricity bill is: %.2f\n", units * 3.0) : units == 0 ? printf("The total electricity bill is: %.2f\n", (float)units)
-                                                                                             : printf("The total electricity bill is: %.2f\n", (100 * 3) + ((units - 100) * 4.5));
+    units <= 100 printf("The total electricity bill is: %.2f\n", units * 3.0) : units == 0 printf("The total electricity bill is: %.2f\n", (float)units)
+        : printf("The total electricity bill is: %.2f\n", (100 * 3) + ((units - 100) * 4.5));
 }
 
 // ========================================
@@ -113,6 +113,6 @@ void finascii()
     char inputval = 0;
     printf("input : ");
     scanf("%c", &inputval);
-    inputval > 47 && inputval < 58 ? printf(" digit\n") : (inputval > 64 && inputval) || (inputval > 96 && inputval < 123) ? printf("alphabet\n")
-                                                                                                                           : printf("special character\n");
+    inputval > 47 && inputval < 58 printf(" digit\n") : (inputval > 64 && inputval) || (inputval > 96 && inputval < 123) printf("alphabet\n")
+        : printf("special character\n");
 }

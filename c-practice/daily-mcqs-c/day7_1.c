@@ -1,4 +1,4 @@
-// 2) What will be the output of bellow code?
+// 2) What will be the output of bellow code
 
 // #include <stdio.h>
 // int main()

@@ -1,25 +1,5 @@
-#include <stdio.h>
-void helloworld();
-int addnums(int a, int b);
-int main()
-{
-    // helloworld();
-    // printf("%d", addnums(1, 2));
-    // printf("%d\n", maxnums(1, 2));
-}
-
 // • Hello World : Write a program to print "Hello, World!" to the console.
-
-void helloworld()
-{
-    printf("Hello World\n");
-}
-
 // • Add Two Numbers : Write a program to add two numbers entered by the user.
-int addnums(int a, int b)
-{
-    return a + b;
-}
 // • Find Maximum Number : Find the maximum number in an array.
 // • Factorial : Write a function to calculate the factorial of a number.
 // • Fibonacci Sequence : Generate the first N numbers in the Fibonacci sequence.

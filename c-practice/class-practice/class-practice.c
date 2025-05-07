@@ -16,9 +16,7 @@ int main()
     scanf("%c %d", &employeetype, &salary);
     float bonus = salary * ((float)5 / 100);
 
-    salary < 0 ? printf("Negative Salary Not Allowed.") : employeetype == 'M' ? printf("Final salary: %.2f", (float)salary + bonus)
-                                                      : employeetype == 'H'   ? printf("Final salary: %.2f", (float)salary)
-                                                                              : printf(" ");
+    salary < 0 ? printf("Negative Salary Not Allowed.") : employeetype == 'M' ? printf("Final salary: %.2f", (float)salary + bonus): employeetype == 'H'   ? printf("Final salary: %.2f", (float)salary): printf(" ");
 }
 // #include <stdio.h>
 // int main()
