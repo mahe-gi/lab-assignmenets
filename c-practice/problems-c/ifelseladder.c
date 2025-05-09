@@ -167,35 +167,35 @@
 
 // An additional surcharge of 20% is added to the bill
 
-// #include <stdio.h>
-// int main()
-// {
-//     int units, Total;
-//     float surcharge = 0.20; // surcharge = 20%
-//     printf("Enter units : ");
-//     scanf("%d", &units);
-//     if (units <= 50)
-//     {
-//         Total = units * 0.50;
-//         Total = Total + (Total * surcharge);
-//         printf("Total bill with surcharge : %d\n", Total);
-//     }
-//     else if (units >= 50 && units <= 150)
-//     {
-//         Total = (50 * 0.50) + ((units - 50) * 0.75);
-//         Total = Total + (Total * surcharge);
-//         printf("Total bill with surcharge : %d\n", Total);
-//     }
-//     else if (units >= 150 && units <= 250)
-//     {
-//         Total = (50 * 0.50) + (100 * 0.75) + ((units - 150) * 1.20);
-//         Total = Total + (Total * surcharge);
-//         printf("Total bill with surcharge : %d\n", Total);
-//     }
-//     else if (units >= 250)
-//     {
-//         Total = (50 * 0.50) + (100 * 0.75) + (100 * 1.20) + ((units - 250) * 1.50);
-//         Total = Total + (Total * surcharge);
-//         printf("Total bill with surcharge : %d\n", Total);
-//     }
-// }
+#include <stdio.h>
+int main()
+{
+    int units;
+    float surcharge = 0.20, Total; // surcharge = 20%
+    printf("Enter units : ");
+    scanf("%d", &units);
+    if (units <= 50)
+    {
+        Total = units * 0.50;
+        Total = Total + (Total * surcharge);
+        printf("Total bill with surcharge : %.2f\n", Total);
+    }
+    else if (units >= 50 && units <= 150)
+    {
+        Total = (50 * 0.50) + ((units - 50) * 0.75);
+        Total = Total + (Total * surcharge);
+        printf("Total bill with surcharge : %.2f\n", Total);
+    }
+    else if (units >= 150 && units <= 250)
+    {
+        Total = (50 * 0.50) + (100 * 0.75) + ((units - 150) * 1.20);
+        Total = Total + (Total * surcharge);
+        printf("Total bill with surcharge : %.2f\n", Total);
+    }
+    else if (units >= 250)
+    {
+        Total = (50 * 0.50) + (100 * 0.75) + (100 * 1.20) + ((units - 250) * 1.50);
+        Total = Total + (Total * surcharge);
+        printf("Total bill with surcharge : %.2f\n", Total);
+    }
+}
