@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+
+<body>
+
+    <h1>
+
+        tables
+    </h1>
+    <!-- 
+    for single line border/table
+    cellspacing="0" 
+     or
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+    -->
+
+
+    <table border="1">
+
+        <!-- border attribute  not works in prod -->
+
+        <thead>
+            <tr>
+                <th>Name </th>
+                <th>Age </th>
+                <th>Employee </th>
+            </tr>
+
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    mahesh
+                </td>
+                <td>
+                    25
+                </td>
+                <td>
+                    sde
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    puli
+                </td>
+                <td>
+                    24
+                </td>
+                <td>
+                    forestdept
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Chrstopher
+                </td>
+                <td>
+                    25
+                </td>
+                <!-- row span -->
+                <td rowspan="2">
+                    psycologydept
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ram
+                </td>
+                <td>
+                    25
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <!-- column spcan  -->
+                <td colspan="3">
+                    footer
+                </td>
+            </tr>
+        </tfoot>
+
+
+
+    </table>
+
+
+</body>
+
+</html>
