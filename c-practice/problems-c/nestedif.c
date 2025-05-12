@@ -37,7 +37,7 @@
 
 // Name of the owener
 
-// Name of the bike
+// Name of the bike/vehcle
 
 // Issue
 
@@ -56,9 +56,94 @@
 #include <stdio.h>
 int main()
 {
-    int vehcletype;
-}
+    int vehicletype, issue, Totalbill, vehicleage, vehicletyres;
+    char vehiclename[20], name[10];
+    printf("Enter Customer name :");
+    scanf("%s", name);
+    printf("Enter your Vehicle type (2/3/4) :");
+    scanf("%d", &vehicletype);
+    printf("Enter your vehicle name :");
+    scanf("%s", vehiclename);
+    if (vehicletype == 2 || vehicletype == 3 || vehicletype == 4)
+    {
+        printf(" what is the age of the vehicle in months : ");
+        scanf("%d", &vehicleage);
+        if (vehicleage > 8)
+        {
+            printf("1)Enter 1 for tyre problem\n2)Enter 2 for fuel problem\n3)Enter 3 for engine issue\n4)Enter 4 for general services\n");
+            scanf("%d", &issue);
+            if (issue == 1)
+            {
+                printf("how many tyres you are facing the issue ? : ");
+                scanf("%d", &vehicletyres);
 
+                // Name of the owener
+                printf("Name of the owener : %s \n", name);
+
+                // Name of the bike/vehcle
+                printf("Name of the bike/vehcle : %s \n", vehiclename);
+
+                // Issue
+                printf("Issue  :%d \n", issue);
+
+                // Bill
+                printf("Total Bill %d \n", vehicletyres * 400);
+                return 1;
+            }
+            if (issue == 2)
+            {
+                printf("Name of the owener : %s \n", name);
+
+                // Name of the bike/vehcle
+                printf("Name of the bike/vehcle : %s \n", vehiclename);
+
+                // Issue
+                printf("Issue : Fuel \n ");
+
+                // Bill
+                printf("Total Bill %d", 1500);
+                return 2;
+            }
+            if (issue == 3)
+            {
+                printf("Name of the owener : %s \n", name);
+
+                // Name of the bike/vehcle
+                printf("Name of the bike/vehcle : %s \n", vehiclename);
+
+                // Issue
+                printf("Issue : Engine \n ");
+
+                // Bill
+                printf("Total Bill %d", 5000);
+
+                return 3;
+            }
+            if (issue == 4)
+            {
+                printf("Name of the owener : %s \n", name);
+
+                // Name of the bike/vehcle
+                printf("Name of the bike/vehcle : %s \n", vehiclename);
+
+                // Issue
+                printf("Issue : General Services \n");
+
+                // Bill
+                printf("Total Bill %d", 1000);
+                return 4;
+            }
+        }
+        else
+        {
+            printf("your vehicle servie will done after a while");
+        }
+    }
+    else
+    {
+        printf("this service center is not accepting other than 2 wheeler, 3 wheeler and 4 wheeler");
+    }
+}
 // Que 2:
 // --------
 // Write a C program to determine whether a person is eligible to get married in India or not, based on their age, gender, and nationality.
@@ -97,8 +182,7 @@ int main()
 // output:
 // 	You are not an Indian citizen
 
-// =========================================
-
+// ========================================
 // Que 3 :
 // --------
 
@@ -172,6 +256,6 @@ int main()
 
 // Attendant: "Certainly, let's explore."
 
-// [If user doesn't want to continue:]
+// [If user doesn't want to continue:
 
 // Attendant: "Thank you for visiting! We look forward to serving you again soon!"
