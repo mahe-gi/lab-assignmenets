@@ -4,111 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables</title>
+    <title>signup form</title>
 </head>
 
 <body>
 
-    <h1>
-
-        tables
-    </h1>
-    <!-- 
-    for single line border/table
-    cellspacing="0" 
-     or
-    table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-    -->
+    <form action="">
 
 
-    <table border="1">
+        <table>
 
-        <!-- border attribute  not works in prod -->
-
-        <thead>
-            <tr>
-                <th>Name </th>
-                <th>Age </th>
-                <th>Employee </th>
-            </tr>
-
-
-        </thead>
-        <tbody>
             <tr>
                 <td>
-                    mahesh
+                    <label for="username"> username :</label>
                 </td>
                 <td>
-                    25
-                </td>
-                <td>
-                    sde
+
+                    <input type="email" name="username">
                 </td>
             </tr>
             <tr>
                 <td>
-                    puli
+                    <label for="userpassword">password</label>
+
                 </td>
                 <td>
-                    24
-                </td>
-                <td>
-                    forestdept
+                    <input type="password" name="userpassword" id="">
                 </td>
             </tr>
             <tr>
                 <td>
-                    Chrstopher
-                </td>
-                <td>
-                    25
-                </td>
-                <!-- row span -->
-                <td rowspan="2">
-                    psycologydept
+                    <input type="submit" value="signup">
                 </td>
             </tr>
-            <tr>
-                <td>
-                    Ram
-                </td>
-                <td>
-                    25
-                </td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <!-- column spcan  -->
-                <td colspan="3">
-                    footer
-                </td>
-            </tr>
-        </tfoot>
-
-
-
-    </table>
-
-
-    <ul>
-        <li>
-            akjfd
-        </li>
-    </ul>
-    <ol start="2">
-        <li>aklsf</li>
-    </ol>
-
-
-    <input type="radio" name="mahes" id="">
-    <input type="radio" name="" id="">
-
-
+        </table>
+    </form>
 </body>
 
 </html>
