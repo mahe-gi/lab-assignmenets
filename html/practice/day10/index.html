@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and attributes </title>
+</head>
+
+<body>
+    <!-- form -  -->
+    <form action="https://locahost:3000">
+        <div>
+            <!-- usrname and password fields -->
+            <!-- placeholder is default it will display in the input temp -->
+            <!-- required is for mandidatory data to fill in form by user  -->
+            <!-- value for initial value in the input   -->
+            <!-- readonly for fixed data user can not change data -->
+            <input type="text" placeholder="username" required value="mahe-gi" readonly>
+            <!-- autofocus is always focus / or heighlighting  -->
+            <!-- maxlength is for this is user can enter max length  and min length -->
+            <input type="password" name="" id="" placeholder="password" value="hey bro" autofocus maxlength="10"
+                minlength="3">
+        </div>
+        <div>
+            <!-- submit btns -->
+            <!-- type is for type of inout  -->
+            <input type="button" value="submit">
+            <input type="submit" value="submit">
+        </div>
+
+        <div>
+            <!-- using image as submit btn -->
+            <!-- src is for link the image link/path to display -->
+            <!-- type is to display image as inout  -->
+            <!-- alt is for alternate message for the image if not displays it will  display alternate text-->
+            <!-- width is for image width /size of image to display -->
+            <input type="image"
+                src="https://imgs.search.brave.com/ztZp8KZF62L7vIejJk8EkmnJGCeXFZdh7DCrXYalVco/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmVl/cG5naW1nLmNvbS90/aHVtYi9zdWJtaXRf/YnV0dG9uLzI1NDYz/LTctc3VibWl0LWJ1/dHRvbi1mcmVlLWRv/d25sb2FkLXRodW1i/LnBuZw"
+                alt="submit" width="50px">
+        </div>
+
+        <!-- to reset the form data  / this works inside the form only -->
+        <!-- id is for identifiying the tag -->
+        <!-- value for value to the rest btn -->
+        <div>
+            <input type="reset" value="reset" id="restbtn">
+        </div>
+        <!-- this is used to send to server side  -->
+        <div>
+            <input type="hidden" name="password to open pdf file ">
+        </div>
+        <br>
+        <div>
+            <!-- min and max for number min number to use max to hight  starts min ends max-->
+            <input type="number" name="" id="" min="2" max="11">
+            <!-- min start date max end date its like range starts from min and ends with max -->
+            <input type="date" name="" id="" min="2020-01-01" max="2025-01-01">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="courses">courses</label>
+            <input type="checkbox"> java
+            <!-- checked is for use to mandidatory things /checked  -->
+            <input type="checkbox" checked> javascript
+            <input type="checkbox"> python
+        </div>
+        <div>
+            <label for="Frameworks"> frameworks</label>
+            <!-- checked attribute is useed to select default as check -->
+            <input type="checkbox" checked> Reactjs
+            <input type="checkbox"> Express
+            <input type="checkbox" name="" id=""> vue js
+        </div>
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
