@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        table {
+            padding: 20px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div id="form1" style="display: flex;align-items: center; justify-content: center; width: 100%;">
+        <form action="">
+
+            <h1>
+                University Course Enrollment Form
+            </h1>
+            <h4>
+                Student Information
+            </h4>
+            <div>
+                <label for="fullname">Full Name :</label>
+            </div>
+            <div>
+                <input type="text" required minlength="4">
+            </div>
+            <br>
+            <div>
+                <label for="Roll No">Roll Number :</label>
+            </div>
+            <div>
+                <input type="number" required minlength="4">
+            </div>
+            <br>
+            <div>
+                <label for="Email">Email :</label>
+            </div>
+            <div>
+                <input type="email" required minlength="4">
+            </div>
+            <br>
+            <div>
+                <label for="Email">Date of Birth :</label>
+            </div>
+            <div>
+                <input type="Date">
+            </div>
+            <br>
+            <div>
+                <label for="Gender">Gender :</label>
+            </div>
+
+            <div>
+                <input type="radio" name="Gender" id="Gender">Male
+                <input type="radio" name="Gender" id="Gender">Female
+                <input type="radio" name="Gender" id="Gender">Other
+            </div>
+            <h4>Course Selection</h4>
+            <div>
+                <label for="Coursesenroll">Select the courses wish to enroll in :</label>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <input type="checkbox" name="Coursesenroll" id="Coursesenroll">CSE101-Algorithms
+                </div>
+                <div>
+                    <input type="checkbox" name="Coursesenroll" id="Coursesenroll">MAT102-Linear Algebra
+                </div>
+                <div>
+                    <input type="checkbox" name="Coursesenroll" id="Coursesenroll">PHY103-Thermodynamics
+                </div>
+                <div>
+                    <input type="checkbox" name="Coursesenroll" id="Coursesenroll">ENG110-Acadamic Writing
+                </div>
+
+            </div>
+            <h3>Additional Preferences</h3>
+
+            <div>
+                <label for="Additional">Prefered Shifts:</label>
+            </div>
+            <div>
+                <input type="radio" name="Additional" id="Additional"> Morning
+            </div>
+            <div>
+                <input type="radio" name="Additional" id="Additional"> Afternoon
+            </div>
+            <div>
+                <input type="radio" name="Additional" id="Additional"> Evening
+            </div>
+            <div>
+                <label for="dept">Select Department:</label>
+
+            </div>
+            <!-- todo -->
+            <div>
+                <select name="dept" id="dept">
+                    <option value="gfhg">--chose Depertment--</option>
+                    <option value="dept">physics</option>
+                    <option value="dept">Maths</option>
+                    <option value="dept">English</option>
+                </select>
+            </div>
+            <div>
+                <label for="upload">
+                    upload Yout student ID:
+                </label>
+
+            </div>
+            <div>
+                <input type="file" name="studentid" id="upload">
+            </div>
+            <br>
+            <div>
+                <label for="textarea">
+                    why do you want to join this course?
+                </label>
+            </div>
+            <div>
+                <textarea name="textarea" id="textarea"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="agree" id="agree">
+                I agree to the university's enrollment polocy
+            </div>
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="clear all">
+            </div>
+
+        </form>
+    </div>
+    <div id="form2"
+        style=" width: 100vw;  display: flex; align-items: center; justify-content: center; margin-top: 20%;">
+
+        <form action="">
+
+            <div>
+                <label for="fullname">Full Name :</label>
+            </div>
+            <div>
+                <input type="text" required minlength="4">
+            </div>
+            <br>
+            <div>
+                <label for="Email">Email :</label>
+            </div>
+            <div>
+                <input type="email" required minlength="4">
+            </div>
+            <br>
+            <div>
+                <label for="Phone No">Phone Number :</label>
+            </div>
+            <div>
+                <input type="number" required minlength="4">
+            </div>
+            <br>
+            <div>
+                <label for="Email">Date of Birth :</label>
+            </div>
+            <div>
+                <input type="Date">
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Step 2:Job preferences</h3>
+            <div>
+                <label for="dept"> prefered Role:</label>
+
+            </div>
+
+            <div>
+                <select name="dept" id="dept">
+                    <option value="gfhg">--Select--</option>
+                    <option value="dept">physics teacher</option>
+                    <option value="dept">Maths teacher</option>
+                    <option value="dept">English teacher</option>
+                </select>
+            </div>
+            <div>
+                <label for="dept"> prefered Location:</label>
+
+            </div>
+            <!-- todo -->
+            <div>
+                <select name="loc" id="dept">
+                    <option value="loc">--Select--</option>
+                    <option value="loc">physics teacher</option>
+                    <option value="loc">Maths teacher</option>
+                    <option value="loc">English teacher</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="sal">Expected Salary:</label>
+            </div>
+            <div>
+                <input type="number" name="sal" id="sal" placeholder="INR per month">
+            </div>
+            <br>
+            <hr>
+            <br>
+
+            <h2>Step 3 :Work Experience</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Company</th>
+                    <th>Role</th>
+                    <th>Years Worked</th>
+                    <th>Technologies Used</th>
+                </tr>
+                <tr>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <th colspan="4">End or Application Work History</th>
+                </tr>
+
+            </table>
+
+            <br>
+            <hr>
+
+            <br>
+            <h2>Step 4: upload Document</h2>
+            <br>
+            <div>
+                <label for="resume">
+                    upload Yout Resume(PDF only):
+                </label>
+
+            </div>
+            <div>
+                <input type="file" id="resume">
+            </div>
+            <br>
+            <div>
+                <label for="dp">
+                    upload Yout Profile picture:
+                </label>
+
+            </div>
+            <div>
+                <input type="file" name="dp" id="dp">
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Step 5:Declartion</h3>
+            <br>
+            <div>
+                <textarea name="dec" id="dec"
+                    placeholder="i hearby declare that the Information provided above is true to the best of my knowledge"></textarea>
+            </div>
+
+            <br>
+            <div>
+                <input type="checkbox" name="agree" id="agree">
+                I agree to the university's enrollment polocy
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="submit Application">
+                <input type="reset" value="Reset Form">
+            </div>
+
+
+
+        </form>
+    </div>
+
+    <div id="form3"
+        style=" width: 100vw;  display: flex; align-items: center; justify-content: center; margin-top: 20%;">
+
+        <form action="">
+            <h2>Universal Talent Registration Matrix</h2>
+            <table border="1">
+
+                <tr>
+                    <th rowspan="2">Region</th>
+                    <th rowspan="2">Particioant Info</th>
+                    <th colspan="4">Session Preferences</th>
+                    <th rowspan="2">Media uploads</th>
+                    <th rowspan="2">Extras</th>
+                </tr>
+                <tr>
+
+
+                    <td>Tracks</td>
+                    <td>Time</td>
+                    <td>Color</td>
+                    <td>level</td>
+
+                </tr>
+                <tr>
+                    <td rowspan="4">Asia</td>
+                    <td>
+                        <div>
+                            <label for="fullname"> Name :</label>
+                        </div>
+                        <div>
+                            <input type="text" required minlength="4">
+                        </div>
+                        <div>
+                            <label for="Email">Email :</label>
+                        </div>
+                        <div>
+                            <input type="email" required minlength="4">
+                        </div>
+                        <div>
+                            <label for="Phone No">Phone Number :</label>
+                        </div>
+                        <div>
+                            <input type="number" required minlength="4">
+                        </div>
+                        <div>
+                            <label for="Email">Date of Birth :</label>
+                        </div>
+                        <div>
+                            <input type="Date">
+                        </div>
+                        <div>
+                            <label for="fullname"> Website :</label>
+                        </div>
+                        <div>
+                            <input type="text" required minlength="4">
+                        </div>
+                        <div>
+                            <label for="fullname"> Search :</label>
+                        </div>
+                        <div>
+                            <input type="text" required minlength="4">
+                        </div>
+                        <div>
+                            <label for="fullname"> Hidden </label>
+                        </div>
+                        <div>
+                            <input type="text" hidden minlength="4">
+                        </div>
+                    </td>
+                    <td>
+
+                        <div>
+                            <select name="loc" id="dept">
+                                <option value="loc">--Reaseach--</option>
+                                <option value="loc">physics teacher</option>
+                                <option value="loc">Maths teacher</option>
+                                <option value="loc">English teacher</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <input type="time" name="" id="">
+                        </div>
+                        <div>
+                            <input type="datetime-local" name="" id="">
+                        </div>
+                    </td>
+                    <td>
+                        <input type="color" name="" id="">
+                    </td>
+                    <td>
+                        beginer<input type="radio" name="a" id="">
+                        Intermediate<input type="radio" name="a" id=""><br>
+                        Expert<input type="radio" name="a" id="">
+                    </td>
+                    <td rowspan="4">
+                        <div>
+                            photo: <input type="file" name="" id="">
+                        </div>
+                        <div>
+                            ID proof:
+                        </div>
+                        <div>
+                            <input type="file" name="" id="">
+                        </div>
+                        <div>
+                            Voice sample:
+                        </div>
+                        <div>
+                            <input type="file" name="" id="">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            agree <input type="checkbox" name="" id="">
+                        </div>
+                        <div>
+                            month
+                        </div>
+                        <div>
+                            <input type="date" name="" id="">
+                        </div>
+                        <div>
+                            week
+                        </div>
+                        <div>
+                            <input type="date" name="" id="">
+                        </div>
+                        <div>
+                            rating
+                        </div>
+                        <div>
+                            <input type="range" name="" id="">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td colspan="5" align="center">
+                        <h3>Emergency contact</h3>
+                        <div>
+                            name: <input type="text">
+                        </div>
+                        <div>
+                            Number: <input type="number">
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+
+                    <td colspan="5" align="center">
+
+                        <div>
+                            Password: <input type="text">
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+
+                    <td colspan="5" align="center">
+
+                        <div>
+                            <label for="">Gender:</label>
+                            <input type="radio" name="a" id="">
+                            Male: <input type="radio" name="a" id="">
+                            Female: <input type="radio" name="a" id=""> Others
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th colspan="8">
+                        End of universal Regrestration Matrix -submit or trset belw
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="8">
+                        <input type="submit" value="Submit Regrestraion">
+                        <input type="reset" value="Reset Form">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
