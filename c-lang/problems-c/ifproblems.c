@@ -170,3 +170,112 @@
 //     printf("Not divisible by 5");
 
 // }
+
+// Q1: Write a C program to read  age of person and  check the person is eligible for marriage or not using if-else.
+// 	if user age is above 21 then eligible.
+// Sample input  :
+//                 Enter your age: 25
+// Sample output :
+// 		you are eligible to marriage.
+
+// Sample input  :
+// 		 Enter your age: 16
+// Sample output :
+// 		 Sorry are not eligible to marriage.
+
+// #include <stdio.h>
+// int main()
+// {
+//     int age;
+//     scanf("%d", &age);
+//     if (age >= 25)
+//     {
+//         printf("you are eligible to marriage.");
+//     }
+//     else
+//     {
+//         printf("Sorry are not eligible to marriage.");
+//     }
+// }
+
+// Q2 :Write a C program to check whether a number is even or odd.
+
+//     case 1:
+// input : Enter a number : 5
+//  output : Is odd
+
+// case 2:
+//  input : Enter a number : 8
+//   output : Is even
+
+// case 3:
+//  input : Enter a number : -6
+//   output : Is even
+
+// #include <stdio.h>
+// int main()
+// {
+//     int num;
+//     scanf("%d", &num);
+//     if (num % 2)
+//     {
+//         printf("odd");
+//     }
+//     else
+//     {
+//         printf("even");
+//     }
+// }
+
+// Q3: Write a C program that takes the marks of a student in three subjects as input and prints whether the student has passed or failed in three subject using if statement.if marks is above 35 then pass and student is fail in any one subject then fail.
+
+// Sample input : Enter three subject marks : 57 66 88 Sample output : Result is pass
+// Sample input : Enter three subject marks : 71 64 32 Sample output : Result is Fail
+
+// #include<stdio.h>
+// int main() {
+//     int sub1, sub2, sub3;
+//     scanf("%d%d%d", &sub1, &sub2, &sub3);
+//     if (sub1 >= 35 && sub2 >= 35 && sub3 >= 35) {
+//         printf("Result is pass");
+//         return 0;
+//     }
+//     printf("Result is Fail");
+// }
+
+
+// Write a C program to calculate the profit or loss based on the user input.
+// Take Cost price and selling price from the user.
+
+// Case 1:
+// input:
+// Enter Cost Price : 100
+// Enter Selling Price : 120
+// output :
+//     Profit is : 20.00
+
+//     Case 2 :
+//     input :
+//     Enter Cost Price : 200
+//     Enter Selling Price : 180
+//     output :
+//     Loss is : 20.00
+
+//     Case 3 :
+//     input :
+//     Enter Cost Price : 300
+//     Enter Selling Price : 300
+//     output :
+//     No profit or loss.
+
+// #include<stdio.h>
+// int main() {
+//     float costprice, sellingprice;
+//     scanf("%f%f", &costprice, &sellingprice);
+//     if (costprice > sellingprice) {
+//         printf("Loss is: %.2f", costprice - sellingprice);
+//         return 0;
+//     }
+//     printf("Profit is: %.2f", sellingprice - costprice);
+
+// }
