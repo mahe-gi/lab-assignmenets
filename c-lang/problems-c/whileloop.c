@@ -187,3 +187,117 @@
 //     printf("Even sum = %d\n", even);
 //     printf("Odd sum = %d\n", odd);
 // }
+
+
+
+
+// 1)  Write C program to check given number is spy number or not.
+// --------
+
+// spy number :
+// A spy number is a number where the sum of its digits equals
+// the product of its digits.
+// For example :
+// 1124 is a spy number, because the sum of its digits is 1+1+2+4=8 and 
+// the product of its digits is 1*1*2*4=8 is equal.
+
+
+// #include<stdio.h>
+// int main(){
+
+//     int number=0,sum=0,mul=1;
+//     scanf("%d",&number);
+//     int temp=number;
+//     while (number!=0)
+//     {
+//         int lastnumber = number%10;
+//         sum=sum+lastnumber;
+//         mul=mul*lastnumber;
+//         number=number/10;
+//     }
+//     if(sum == mul){
+//         printf(" %d is a spy number\n",temp);
+//     }else{
+//         printf("%d is not a spy number\n",temp);
+//     }
+
+// }
+
+
+
+
+// ====================================
+
+// 2) Write a c program to find the given Number is Prime Or Not
+// Enter the number : 13
+// 13 is a prime number.
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int number=0,count=0;
+//     scanf("%d",&number);
+//     int i=1;
+//     while (i<=number)
+//     {
+//         if(number%i==0)count++;
+//         i++;
+//     }
+//     if(count == 2){
+//         printf("%d is Prime Number\n",number);
+//     }else{
+//         printf("%d is Not Prime Number\n", number);
+
+//     }
+
+// }
+
+
+
+
+
+// ====================================
+
+// 3) Write a c program that will print the prime number from 1 to N
+// ===================================
+
+
+// 4)Write C program to check given number is automorphic number or not.
+
+// Automorphic number :
+// An automorphic number is a number whose square ends in the
+// same digits as the number itself.
+// For example:
+// 5,6,25 are automorphic numbers.
+// 5*5=25 // last digit is 5
+// 6*6=36 // last digit is 6
+// 25*25=625 // last digit is 25
+
+// #include<stdio.h>
+// int main(){
+
+//     int number=0,sqre=0;
+//     scanf("%d",&number);
+
+//     sqre=number*number;
+
+//     while (number!=0)
+//     {
+//         if(number%10 != sqre%10){
+//             printf("Not automorphic number\n");
+//             return 0;
+//         }
+//         number/=10;
+//         sqre/=10;
+
+
+//     }
+//     printf("automorphic number\n");
+
+// }
+
+
+
+
+
