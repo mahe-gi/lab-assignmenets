@@ -140,34 +140,34 @@
 // Eg: n=50
 // 1, 2,....,9, 11, 22, 33, 44 – 13 palindromes
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-    // Write C code here
+// int main()
+// {
+//     // Write C code here
 
-    int number, count = 0;
-    scanf("%d", &number);
-    if (number > 0)
-    {
-        for (int i = 1, rev = 0; i <= number; i++)
-        {
-            for (int temp = 0; i ; i /= 10)
-            {
-                temp = i % 10;
-                rev = rev * 10 + temp;
-            }
-            if (rev == i)
-            {
-                printf("%d", rev);
-                count++;
-            }
-        }
-    }
-    else
-    {
-        printf("you entered negitive number");
-    }
+//     int number, count = 0;
+//     scanf("%d", &number);
+//     if (number > 0)
+//     {
+//         for (int i = 1, rev = 0; i <= number; i++)
+//         {
+//             for (int temp = 0; i ; i /= 10)
+//             {
+//                 temp = i % 10;
+//                 rev = rev * 10 + temp;
+//             }
+//             if (rev == i)
+//             {
+//                 printf("%d", rev);
+//                 count++;
+//             }
+//         }
+//     }
+//     else
+//     {
+//         printf("you entered negitive number");
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
