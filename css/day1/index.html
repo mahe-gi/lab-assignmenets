@@ -5,9 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>styling day 1</title>
+    <!-- this is extenal css - priority is 2nd top to bottom -->
+    <link rel="stylesheet" href="style.css">
+    <!-- it will take and display last file css  top to bottom  last updated styles-->
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- this is internal css - priority is 2nd or top to bottom -->
+    <style>
+        p {
+            background-color: red;
+        }
+    </style>
 </head>
 
 <body>
+
+
+    <!-- inline css  - priority is high-1 -->
+    <p style="background-color: blue; color: black;">hello</p>
+    <p> hello 1</p>
+    <p> hello 2</p>
 
 </body>
 
