@@ -1,6 +1,6 @@
 async function data(){
     
-const websiteurl ="https://verdictalegalsolutions.in/";
+const websiteurl ="https://nareshit.in/";
 
 
 fetch(websiteurl)

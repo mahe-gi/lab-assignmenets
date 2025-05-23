@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 2px solid black;
+        }
+
+        #one {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="one">
+        <h1>Hotel Booking & Feedback Portal</h1>
+        <form action="">
+
+            <table>
+                <thead>
+                    <th colspan="4">Custemer Booking Details</th>
+                </thead>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text"></td>
+                    <td>Email</td>
+                    <td><input type="email" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Contact Number</td>
+                    <td><input type="number" name="" id=""></td>
+                    <td>No.ofGuests</td>
+                    <td><input type="number" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Check-in Date</td>
+                    <td><input type="date" name="" id=""></td>
+                    <td>Check-out Date</td>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Check-in Time</td>
+                    <td><input type="time" name="" id=""></td>
+                    <td>Room Type</td>
+                    <td><Select>
+                            <option value="Deluxe">Deluxe</option>
+                            <option value="Non-ac">Non-Ac</option>
+                        </Select></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Payment Method</td>
+                    <td colspan="3">
+                        <input type="radio" name="pay" id="">Card
+                        <input type="radio" name="pay" id="">UPI
+                        <input type="radio" name="pay" id="">Cash
+                    </td>
+                </tr>
+                <tr>
+
+                    <td colspan="3">
+                        <b>Amenities:</b> <br>
+                        <input type="checkbox" name="ame" id="">WiFi
+                        <input type="checkbox" name="ame" id="">BreakFast
+                        <input type="checkbox" name="ame" id="">Pool
+                        <input type="checkbox" name="ame" id="">Parking
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <fieldset>
+                            <legend>Feedback</legend>
+
+                            <textarea name="specialreq" id="" cols="60"></textarea>
+                            <div>
+                                Rate Us: <input type="range" name="" id="">
+                            </div>
+                            <div>
+                                Favorite color Theme: <input type="color" name="" id="">
+                            </div>
+                            <div>
+                                Upload ID proof : <input type="file" name="" id="">
+                            </div>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tfoot>
+                    <th colspan="4">
+                        <input type="submit" value="Book Now">
+                        <input type="reset" value="Reset Form">
+                    </th>
+                </tfoot>
+            </table>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

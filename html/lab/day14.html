@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Tech Conference - 2025 Registrations Form </title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border-collapse: collapse;
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        #nestedtable {
+            width: 100%;
+        }
+
+        main {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h2>International Tech Conference - 2025 Registrations Form</h2>
+        <form action="">
+            <table>
+
+
+
+                <thead>
+                    <th colspan="5"> Personal information</th>
+                </thead>
+                <tr>
+                    <td>Full Name</td>
+                    <td><input type="text"></td>
+                    <td>Email </td>
+                    <td><input type="email" name="" id=""></td>
+                    <td rowspan="2">
+                        <span>Mobile</span><br>
+                        <input type="number" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="date" name="" id=""></td>
+                    <td>Nationality</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th colspan="5">Conference Preferences</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Conference Days</td>
+                    <td colspan="2">
+                        <input type="checkbox" name="" id="">Day1
+                        <input type="checkbox" name="" id="">Day2
+                        <input type="checkbox" name="" id="">Day3
+                    </td>
+                    <td>
+                        Track Selection
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="All">
+                                All
+                            </option>
+                            <option value="All">
+                                one
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4"> Accommodation Required:
+                        <input type="radio" name="a" id="">Yes
+                        <input type="radio" name="a" id="">No
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <fieldset>
+                            <legend>Workshop Slot Booking </legend>
+
+                            <table border="1" id="nestedtable">
+                                <thead>
+                                    <th>Day</th>
+                                    <th>Morning</th>
+                                    <th>Afternoon</th>
+                                    <th>Evening</th>
+                                </thead>
+                                <tr>
+                                    <td>Day1</td>
+                                    <td>
+                                        <input type="radio" name="a" id="">
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="a" id="">
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="a" id="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Day2</td>
+                                    <td>
+                                        <input type="radio" name="b" id="">
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="b" id="">
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="b" id="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Day3</td>
+                                    <td>
+                                        <input type="radio" name="c" id="">
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="c" id="">
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="c" id="">
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </fieldset>
+
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Upload Passport</td>
+                    <td colspan="2">
+                        <input type="file" name="" id="">
+                    </td>
+                    <td>
+                        special Needs
+                    </td>
+                    <td>
+                        <textarea name="20" id="" cols="20"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>T-shirt Sized</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="XS">XS</option>
+                            <option value="XS">M</option>
+                        </select>
+                    </td>
+                    <td>
+                        Badge Color
+                    </td>
+                    <td><input type="color" name="" value="#ff0000" id=""></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        security Verification <br>
+                        age: <input type="number" value="22" name="" id="">
+                        <span> </span>
+                        Excitement Level(0-10): <input type="range" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="5">
+                        <input type="submit" value="Submit Registration">
+                        <input type="reset" value="Reset Form">
+                    </th>
+                </tr>
+
+
+            </table>
+        </form>
+    </main>
+
+</body>
+
+</html>
