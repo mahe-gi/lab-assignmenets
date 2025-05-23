@@ -1,0 +1,24 @@
+/* diffe rent ways to give color to text */
+
+/* element selectors ->  p{} -> p tag name */
+p {
+  color: black;
+}
+h1 {
+  color: #ff0000;
+}
+h2 {
+  color: rgb(0, 255, 0);
+}
+h3 {
+  color: rgba(0, 0, 255, 0.5);
+}
+
+div {
+  background-image: url("https://images.pexels.com/photos/31091591/pexels-photo-31091591/free-photo-of-woman-in-kimono-at-fushimi-inari-shrine.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+}
