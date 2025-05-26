@@ -1,0 +1,8 @@
+div {
+  background-image: url("https://imgs.search.brave.com/fGjfsZi5vmrGDLQq5-TWQvVylAGp253kPgDKZlSivxI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vb3BBX3dl/SWkxdzVncTBuR0ZJ/R3F2ZG0xVXQ3UVNz/WWs0UW52b0ZQRllQ/ay9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTl0/WldScC9ZUzVuWlhS/MGVXbHRZV2RsL2N5/NWpiMjB2YVdRdk1U/RTIvTVRZMk56TTRO/aTkyWldOMC9iM0l2/YzIxcGJHbHVaeTFq/L1lYSXVhbkJuUDNN/OU5qRXkvZURZeE1p/WjNQVEFtYXoweS9N/Q1pqUFV4RmNrOWFS/RUozL1prOHhNR1F3/VkRsdGNqWm4vVjFO/dVpXbGFMV1JRWmt0/SS9halkyT0hKMVRY/WmtUMUU5");
+  width: 50%;
+  background-attachment: fixed;
+  background-size: 50vw 600px;
+  background-repeat: no-repeat;
+  background-color: red;
+}
