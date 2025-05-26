@@ -187,3 +187,55 @@
 // }
 
 // =====================================
+
+
+
+
+
+// Write a program in C to check whether a number can be expressed as the sum of two prime.
+
+
+
+// Input as : 16
+
+
+
+// Expected Output :
+
+// 16 = 3 + 13
+
+// 16 = 5 + 11
+// Sample Input
+// 16
+// Sample Output
+// Pairs of prime numbers whose sum is 16:
+// 16 = 3 + 13
+// 16 = 5 + 11
+
+// =====================================
+
+// Write a C program to find all Armstrong numbers between 100 to N.
+
+// A three digit number is called Armstrong number if sum of cube of its digit is equal to number itself.
+
+// E.g. - 153 is an Armstrong number because(1) ^ 3 + (5) ^ 3 + (3) ^ 3 = 153.
+// Sample Input
+// 200
+// Sample Output
+// Armstrong numbers between 100 and 200 are:
+// 153
+
+// ==================================== =
+
+// Write a program in C to find the prime Numbers Between the given range 1 to N
+// Sample Input
+// 10
+// Sample Output
+// Prime numbers between 1 and 10 are:
+// 2
+// 3
+// 5
+// 7
+// ==================================== =
+
+// todo: ans top questions 3
