@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div {
+  text-align: center;
+}
+h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: blue;
+  font-size: 30px;
+}
+h2 {
+  text-transform: capitalize;
+  color: green;
+  text-decoration: underline;
+  font-size: 20px;
+}
+div ol li {
+  list-style: none;
+  color: rgba(0, 0, 0, 0.257);
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.red {
+  color: white;
+  background-color: red;
+}
+footer h6 {
+  color: gray;
+}
