@@ -1,0 +1,27 @@
+.one {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background-color: rgb(130, 233, 245);
+}
+div {
+  margin: 20px;
+}
+.two {
+  height: 200px;
+  width: 200px;
+  border: 2px dashed rgb(255, 36, 36);
+  background-color: rgb(130, 233, 245);
+}
+.three {
+  height: 200px;
+  width: 200px;
+  border: 2px dotted black;
+  background-color: rgb(230, 130, 245);
+}
+.four {
+  height: 200px;
+  width: 200px;
+  border: 2px double black;
+  background-color: rgb(32, 104, 16);
+}

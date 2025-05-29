@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(94, 91, 91);
+  text-align: end;
+  padding-right: 200px;
+}
+.one {
+  width: 80%;
+  border: 2px solid blue;
+}
+
+.nestedone,
+.nestedtwo {
+  border: 2px solid rgb(170, 166, 166);
+  background-color: rgb(241, 239, 239);
+  margin: 20px;
+  padding: 10px;
+}
+.two {
+  border: 2px dotted purple;
+  background-color: rgb(255, 233, 255);
+  width: 40%;
+  margin-left: 40px;
+  padding: 20px;
+}
+.nested1,
+.nested2 {
+  margin: 20px;
+  border: solid rgb(114, 114, 114);
+  background-color: white;
+  padding: 10px;
+}
+h6 {
+  color: purple;
+}

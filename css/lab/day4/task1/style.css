@@ -1,0 +1,45 @@
+* {
+  font-family: sans-serif;
+}
+main h1 {
+  background-color: rgb(105, 215, 164);
+  color: rgb(35, 84, 61);
+  text-align: center;
+}
+main {
+  border: 2px solid black;
+
+  padding: 20px;
+}
+#images img {
+  height: 100px;
+  width: 100px;
+}
+
+span {
+  font-weight: bold;
+}
+
+div table {
+  width: 100%;
+}
+table,
+th,
+tr,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 10px;
+}
+th {
+  background-color: rgb(151, 255, 210);
+}
+.btns {
+  margin: 30px;
+}
+.btns button {
+  padding: 6px 12px;
+  background-color: rgb(15, 102, 73);
+  border: none;
+  color: white;
+}

@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main form div {
+  padding-top: 10px;
+}
+
+form {
+  background-color: rgb(253, 191, 191);
+  padding: 20px;
+  border-radius: 5%;
+}
+
+.btn {
+  padding: 6px 12px;
+  width: 100%;
+}
+.btn:hover {
+  display: none;
+}
+
+input {
+  padding: 6px 12px;
+  margin-top: 5px;
+}
