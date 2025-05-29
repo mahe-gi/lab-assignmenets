@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>TastyBites Resturent</h1>
+        <h2>Delicius Food , Delightful experience</h2>
+    </header>
+    <nav>
+        <a href="#"><span>Home</span></a>
+        <a href="#"><span>Menu</span></a>
+        <a href="#"><span>Order</span></a>
+        <a href="#"><span>Contact</span></a>
+    </nav>
+    <main>
+
+        <section class="starters">
+            <h2>Starters</h2>
+            <ul>
+                <li><b>Tomato Soup - 99/- <sub>Mild</sub></b></li>
+                <li><b>Paneer Tikka - 149/- <sub>Spicy</sub></b>(VFM) </li>
+
+            </ul>
+        </section>
+        <section class="Maincourse">
+            <h2>Main course</h2>
+            <table>
+                <thead>
+                    <th>Dish</th>
+                    <th>Price</th>
+                    <th>Type</th>
+                </thead>
+                <tr>
+                    <td>Butter naan </td>
+                    <!-- todo -->
+                    <td> &#8377 35/- </td>
+                    <td> Veg</td>
+                </tr>
+                <tr>
+                    <td>Chicken curry </td>
+                    <!-- todo -->
+                    <td> &#8377 199/- </td>
+                    <td> Non-Veg</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="Desserts">
+            <h2>Desserts</h2>
+            <ul>
+                <!-- todo -->
+                <li><mark>Gulab Jamun</mark> - &#8377 60/-</li>
+                <li><mark>Ice cream</mark> - &#8377 50/-</li>
+
+            </ul>
+        </section>
+
+        <section class="customerreview">
+            <h2>
+                Customer Review
+            </h2>
+
+        </section>
+        <section class="review">
+            <h2>
+                <q>One of the best food experiences! loved the paneer tikka !</q> - happy customer
+            </h2>
+        </section>
+
+        <section class="placeorder">
+            <h2>Place your order</h2>
+            <form action="">
+                <label for="name">
+                    Name: <br>
+                    <input type="text">
+                </label>
+                <br>
+                <label for="phone">
+                    Phone number: <br>
+                    <input type="number">
+                </label>
+                <br>
+                <label for="dish">
+                    Choose Dish <br>
+                    <select name="dish" id="dish">
+                        <option value="dish">
+                            Tomato soup
+                        </option>
+                        <option value="dish">
+                            chicken
+                        </option>
+                    </select>
+                </label>
+                <br>
+                <br>
+                <label for="Specialinstructions">
+                    Special instructions : <br>
+                    <textarea name="Specialinstructions" id="Specialinstructions"></textarea>
+                </label>
+                <br>
+
+                <input type="submit" value="order Now">
+            </form>
+        </section>
+        <section class="othertags">
+            <details>
+                <summary>Chef's Note</summary>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod molestiae voluptate beatae rem nesciunt
+                necessitatibus dicta nihil fugiat officiis omnis! Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quas iure perspiciatis eius laborum consequatur minima nostrum autem, veniam quae sapiente.
+            </details>
+        </section>
+        <section class="jsonorder">
+            <h2>Sample order JSON</h2>
+            <p>{"name":"Durga Dev", "Dish":"Butter naan","quanity":"2"}</p>
+        </section>
+        <footer>
+            <h4>&copy; 2025 TastyBites | Designed by You</h4>
+        </footer>
+    </main>
+</body>
+
+</html>

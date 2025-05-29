@@ -1,0 +1,55 @@
+* {
+  background-color: rgba(249, 199, 160, 0.662);
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+header,
+h1,
+header h2 {
+  background-color: rgb(105, 30, 30);
+  text-align: center;
+  color: rgb(161, 100, 100);
+}
+header h2 {
+  font-size: 15px;
+  font-style: italic;
+  color: rgb(195, 195, 195);
+  font-weight: 200;
+}
+nav {
+  background-color: rgb(167, 167, 167);
+}
+a {
+  text-decoration: none;
+  background-color: rgb(85, 24, 24);
+}
+a:link {
+  color: white;
+}
+main {
+  border: 1px solid black;
+}
+.starters {
+  border-bottom: 1px solid black;
+}
+.Maincourse {
+  border-bottom: 1px solid black;
+}
+.Desserts {
+  border-bottom: 1px solid black;
+}
+.review {
+  border-bottom: 1px solid black;
+}
+.placeorder {
+  border-bottom: 1px solid black;
+}
+.othertags {
+  border-bottom: 1px solid black;
+}
+
+input,
+textarea,
+select {
+  background-color: rgb(142, 132, 132);
+}

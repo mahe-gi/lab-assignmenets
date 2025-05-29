@@ -1,0 +1,60 @@
+* {
+  font-family: sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  background-color: rgb(108, 173, 252);
+}
+a {
+  text-decoration: none;
+  font-weight: 300;
+}
+a:link {
+  color: black;
+}
+nav {
+  background-color: rgba(0, 128, 0, 0.254);
+}
+main {
+  border: 1px solid black;
+}
+.aboutme {
+  border-bottom: 2px solid black;
+}
+.skills {
+  border-bottom: 2px solid black;
+}
+.simpletable {
+  border-bottom: 2px solid black;
+}
+.inspiration {
+  border-bottom: 2px solid black;
+  height: 100px;
+}
+.quote {
+  /* todo */
+  padding-left: 20px;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.formelements {
+  border-bottom: 2px solid black;
+}
+
+.othertags code {
+  background-color: rgb(179, 169, 169);
+}
+.othertags details {
+  background-color: rgb(255, 211, 117);
+}
+footer h4 {
+  background-color: rgb(102, 184, 248);
+  color: white;
+  text-align: center;
+}
