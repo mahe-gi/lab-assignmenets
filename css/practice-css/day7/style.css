@@ -1,0 +1,12 @@
+p {
+  /* to hide the element */
+  /* visibility: hidden; */
+  /* display: none; */
+  /* opacity: 0; */
+  /* and we use html attribute hidden  */
+}
+ul {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  background-color: red;
+}

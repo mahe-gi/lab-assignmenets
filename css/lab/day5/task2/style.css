@@ -1,0 +1,8 @@
+body {
+  background: url("https://images.pexels.com/photos/32131630/pexels-photo-32131630/free-photo-of-scenic-road-through-canadian-rockies-in-jasper.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"),
+    url("https://images.pexels.com/photos/32131630/pexels-photo-32131630/free-photo-of-scenic-road-through-canadian-rockies-in-jasper.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"),
+    url("https://images.pexels.com/photos/32131630/pexels-photo-32131630/free-photo-of-scenic-road-through-canadian-rockies-in-jasper.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: left top, right top, center top;
+}
