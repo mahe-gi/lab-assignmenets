@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  height: 50px;
+  width: 100%;
+
+  background: linear-gradient(to right, rgb(169, 9, 9), rgb(255, 46, 46));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutimg {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(200, 188, 188);
+  text-shadow: 2px 2px black;
+  background: url("https://media.istockphoto.com/id/868408746/photo/assorted-indian-dish.jpg?s=612x612&w=0&k=20&c=XLsAk571Z2kEe_x6TnXWSzsG95-2agp-TcYswQrKHuo=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.menugrid {
+  height: 30vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px solid white;
+}
+.box3x3 {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+.name1 {
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricechart table {
+  width: 100%;
+}
+td,
+th,
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+th {
+  background: linear-gradient(to right, rgb(214, 84, 4), orange);
+}
+
+footer {
+  height: 7vh;
+  width: 100%;
+  background: linear-gradient(to right, brown, rgb(104, 78, 78));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
