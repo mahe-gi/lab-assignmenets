@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  transition: all 1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+.box:hover {
+  background: linear-gradient(red, orange, pink, black);
+  border-radius: 50%;
+  cursor: pointer;
+}
