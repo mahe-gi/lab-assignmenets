@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://images.pexels.com/photos/212324/pexels-photo-212324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+form {
+  height: 400px;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  backdrop-filter: blur(6px);
+  box-shadow: 0px 0px 30px black;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.564);
+}
+.inp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.inp > span {
+  text-transform: capitalize;
+}
+input {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  color: rgba(255, 255, 255, 0.562);
+  padding: 10px 10px;
+  border-radius: 6px;
+}
+.forgot > p > span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.inp-login input {
+  cursor: pointer;
+}

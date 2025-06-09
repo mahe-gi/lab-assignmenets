@@ -1,0 +1,26 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  background: conic-gradient(rgb(255, 181, 44), black, blue, white, pink);
+  transition: all 0.3s ease;
+}
+.box:hover {
+  border-radius: 50%;
+  background: radial-gradient(
+    white,
+    orange,
+    rgb(185, 120, 0),
+    black,
+    blue,
+    blue,
+    rgb(96, 96, 230)
+  );
+}
