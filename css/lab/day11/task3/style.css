@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box {
+  height: 300px;
+  width: 400px;
+  border: 2px dotted black;
+  position: relative;
+}
+.card1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+.card2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+p {
+  font-size: 20px;
+  color: white;
+}

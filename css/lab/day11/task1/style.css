@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.box {
+  height: 300px;
+  width: 500px;
+  border: 2px solid black;
+  position: relative;
+}
+.a {
+  height: 100px;
+  width: 200px;
+}
+.static {
+  background-color: rgb(105, 202, 255);
+  position: static;
+  position: absolute;
+  left: -100px;
+  top: -200px;
+}
+.relative {
+  background-color: rgba(2, 146, 16, 0.612);
+  position: absolute;
+  left: 10px;
+  top: -50px;
+}
+.absolute {
+  background-color: rgba(255, 0, 0, 0.626);
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
