@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+header {
+  height: 60px;
+}
+
+main {
+  height: calc(100% - 60px);
+}
+label {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+}
