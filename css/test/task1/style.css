@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  color: rgba(0, 0, 0, 0.629);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(123, 141, 228), rgb(28, 28, 95));
+}
+.card {
+  height: 70vh;
+  width: 29%;
+}
+.card .top {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8%;
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.518);
+}
+.top h1 {
+  color: white;
+}
+.btm {
+  height: 92%;
+  width: 100%;
+  background-color: white;
+}
+form {
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  text-transform: capitalize;
+}
+.one {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.one .firstname input {
+  padding: 10px 20px;
+}
+
+.one .lastname input {
+  padding: 10px 20px;
+}
+
+.two {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+.two input {
+  padding: 10px 20px;
+}
+
+.three {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+.three input {
+  padding: 10px 20px;
+}
+
+.four {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+.four input {
+  padding: 10px 20px;
+}
+
+.five {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+
+.gender {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  height: 80%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: rgba(116, 205, 246, 0.414);
+  gap: 30px;
+}
+.name {
+  background-color: rgba(0, 0, 255, 0.664);
+  padding: 6px 15px;
+  color: white;
+  border-radius: 20px;
+}
+.six {
+  height: 20%;
+  width: 100%;
+  padding: 10px 30px;
+}
+.six button {
+  font-size: 20px;
+  width: 100%;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(27, 27, 206, 0.842);
+}

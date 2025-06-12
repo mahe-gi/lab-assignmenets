@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgba(240, 248, 255, 0.714);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  height: 20%;
+}
+.wrapper h1 {
+  font-size: 60px;
+  color: rgba(0, 89, 255, 0.741);
+}
+.wrapper p {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.632);
+}
+.card {
+  height: 45%;
+  width: 60%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  border-radius: 10px;
+}
+.frm {
+  height: 70%;
+  width: 100%;
+}
+form {
+  height: 100%;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.btn {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 70px;
+}
+.a1 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a1 input,
+button {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 6px;
+  font-size: large;
+  border: 1.5px solid rgba(111, 109, 109, 0.548);
+}
+
+.a1 button {
+  background-color: rgba(2, 74, 255, 0.903);
+  color: white;
+  font-size: 20px;
+}
+.line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.519);
+}
+.a1 h6 {
+  color: rgb(48, 48, 211);
+  font-size: 15px;
+  font-weight: 200;
+}
+.btn button {
+  background-color: rgba(9, 177, 9, 0.779);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: large;
+}
