@@ -1,0 +1,31 @@
+Coding Questions: -
+Question 1: Centered Profile Card
+Image Description:
+A rectangular card is centered both vertically and horizontally on the page. The card has a circular profile picture at
+the top, followed by a name and a short description. The card has a subtle shadow and rounded corners.
+Task:
+Write the HTML and CSS to create the following layout:
+• The card is 300px wide and 400px high.
+• The profile picture is a circle (100px by 100px), centered at the top of the card.
+• The name is bold and centered below the profile picture.
+• The description is centered and has a lighter font weight.
+• The card is perfectly centered in the browser window, regardless of screen size.
+• The card has a box-shadow and border-radius of 16px.
+Sample Profile Picture:
+Use the following image URL:
+https://randomuser.me/api/portraits/men/75.jpg
+
+Question 2: Responsive Image Gallery
+Image Description:
+A gallery with three images in a row on desktop, and stacked vertically on mobile. Each image has a caption overlay that
+appears at the bottom when hovered.
+Task:
+Write the HTML and CSS to create a responsive image gallery with the following requirements:
+• On screens wider than 600px, display three images in a row with equal width and 16px gap.
+• On screens 600px or less, stack the images vertically with 16px gap.
+• Each image has a caption overlay at the bottom that appears with a semi-transparent black background and white text
+when hovered.
+• Use the following sample images:
+• https://images.unsplash.com/photo-1506744038136-46273834b3fb
+• https://images.unsplash.com/photo-1465101046530-73398c7f28ca
+• https://images.unsplash.com/photo-1500534314209-a25ddb2bd429
